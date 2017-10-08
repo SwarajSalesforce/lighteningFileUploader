@@ -5,10 +5,13 @@ from the record detail page.
 
 Step 1
 Download all the components and deploy in your developer org using ANT or Workbenche.
+
 Step-2
 Go to account or any object detail page(open in lightening ) and click on setup icon and then click on edit page.
+
 Step-3
 Drag and drop FileUploader component to the detail page.
+
 Step-4
 Open any record of any object detail page and click on add attachments.Upload any file and save.
 you can see your attachments in the files and attachement section.
