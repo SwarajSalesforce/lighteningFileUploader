@@ -1,0 +1,16 @@
+<aura:component description="FileUploader" controller="FileUploadController" implements="force:hasRecordId,flexipage:availableForAllPageTypes"  >
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="fileToBeUploaded" type="Object[]"/>
+    <lightning:spinner aura:id="mySpinner" class="slds-hide"/>
+    
+    <div class="slds-box">
+        <div class="slds-grid slds-wrap">
+            <lightning:input aura:id="file-input" type="file"
+                             files="{!v.fileToBeUploaded}"
+                             onchange="{!c.onFileUploaded}"
+                             accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                             label="Attachment"
+                             name="file" multiple="true"/>
+        </div>
+    </div>
+</aura:component>
