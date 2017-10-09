@@ -16,5 +16,8 @@ Step-4
 Open any record of any object detail page and click on add attachments.Upload any file and save.
 you can see your attachments in the files and attachement section.
 
+## Screenshots
+<img width="960" alt="fileupload" src="https://user-images.githubusercontent.com/18612751/31324072-4462cbee-accc-11e7-8d75-83f67054f62f.PNG">
+
 
 
