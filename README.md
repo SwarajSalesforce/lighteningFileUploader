@@ -19,5 +19,7 @@ you can see your attachments in the files and attachement section.
 ## Screenshots
 <img width="960" alt="fileupload" src="https://user-images.githubusercontent.com/18612751/31324072-4462cbee-accc-11e7-8d75-83f67054f62f.PNG">
 
+<img width="960" alt="uploadfile" src="https://user-images.githubusercontent.com/18612751/31324119-dd419052-accc-11e7-8e95-0259204e13dd.PNG">
+
 
 
