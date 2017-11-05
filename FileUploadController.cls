@@ -1,4 +1,5 @@
 public class FileUploadController {
+//Test Added
     @AuraEnabled
     public static Id uploadFile(String fileName, String base64Data, String contentType,Id recordId) { 
         System.debug('recordId'+ recordId);
