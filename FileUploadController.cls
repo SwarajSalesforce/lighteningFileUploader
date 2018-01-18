@@ -11,6 +11,7 @@ public class FileUploadController {
         a.ContentType = contentType; 
         insert a;
         System.debug(a.Id);
+        System.debug('hello');
         return a.Id;
     }
 
