@@ -15,7 +15,9 @@ public class FileUploadController {
         System.debug('hello');
         return a.Id;
     }
+
      public static void accountAfterInsert(List<Account> accountList)
+
     {
         List<Account> accountOptionList = new List<Account>();
         Set<id> accId = new Set<Id>();
@@ -31,11 +33,20 @@ public class FileUploadController {
                                  {
                                      accountOptionList.add(accObjItrate);
                                  } 
+
+
+								 
                                  
-         
         recursiveFlag = false;                      
-        update generateBusinessUniqueKey(accountOptionList);
-        populateStoreInfoTable(accountList);
+         String [] AccountFields1  = new String [] {'Business_Unique_Key_Text__c'}; 
+		 If(!CS_UtilityCRUDValidation.isUpdateable('Account',AccountFields1))           
+            {           
+                        
+				update generateBusinessUniqueKey(accountOptionList);    
+            }
+			populateStoreInfoTable(accountList);
+		
+	
     }
 
 }
