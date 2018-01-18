@@ -12,6 +12,7 @@ public class FileUploadController {
         insert a;
         System.debug(a.Id);
         System.debug('hello');
+        System.debug('hello');
         return a.Id;
     }
 
