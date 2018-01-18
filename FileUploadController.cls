@@ -42,7 +42,7 @@ public class FileUploadController {
 				update generateBusinessUniqueKey(accountOptionList);    
             }
 		
-		populateStoreInfoTable(accountList);		
+	
     }
 
 }
