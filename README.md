@@ -3,6 +3,11 @@ Use this component in any record detail page of any object.
 If you only preview this component in developer console you will get error as i am passing the record id in the component 
 from the record detail page.
 
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 Step 1
 
 Download all the components and deploy in your developer org using ANT or Workbenche.
